@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.workerUl{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.workerUl li{
+ background-color: rgb(163, 131, 136);
+ list-style: none;
+ color: white;
+ padding: 2em;
+ margin: 2em;
+ display: inline-block;
+}
